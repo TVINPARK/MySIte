@@ -2,16 +2,20 @@ body {
   max-width: 1062px;
   width: 100%;
   margin: auto;
-  background: url("./img/background.jpg") no-repeat center;
+  background: url("./img/background.jpg") no-repeat center ;
+  background-size:cover ;
   height: 100%;
   color: #fff;
 }
 
 .header {
   display: flex;
-  justify-content: space-around;
   margin-top: 24px;
   margin-bottom: 200px;
+  margin-left: -300px;
+}
+.navbar{
+  margin-left: 1000px;
 }
 
 .menu-list {
@@ -33,17 +37,19 @@ body {
 }
 
 .main-text {
-  font-weight: 500;
-  font-size: 53px;
+  font-size: 80px;
   line-height: 62px;
+  width: 1000px;
 }
 
 .quote {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   opacity: 0.7;
   margin-left: 0;
+  margin-top: -70px;
+
 }
 
 .button-order {
@@ -58,4 +64,5 @@ body {
 
 .main {
   max-width: 500px;
+  margin-left: -290px;
 }
